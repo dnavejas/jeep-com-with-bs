@@ -11,3 +11,6 @@ a:hover {
 .black-background{
 	background-color: black;
 }
+.left-space{
+	margin-left: 5px;
+}
