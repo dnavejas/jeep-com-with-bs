@@ -1,3 +1,6 @@
+body {
+	font-family: roboto;
+}
 a {
 	text-decoration: none;
 }
@@ -6,8 +9,17 @@ a:hover {
 	cursor: hand;
 	color: inherit;
 }
+li {
+	margin-bottom: 5px;
+	border-radius: 3px;
+	padding: 10px;
+	font-size: .85714rem;
+}
 .white-text {
 	color: white;
+}
+.black-text {
+	color: black;
 }
 .black-background{
 	background-color: black;
@@ -30,4 +42,32 @@ a:hover {
 }
 .slide-four {
 	background-image: url(fourth-slide-mobile.jpg);
+}
+.orange-box {
+	background-color: #ffba00;
+	padding: 1.35714rem 1.07143rem 1.28571rem 2.64286rem!important;
+}
+.grey-box {
+	background-color: #636363;
+}
+.font-12px {
+	font-size: 12px;
+}
+.flex-display {
+	display: flex;
+	justify-content: flex-end;
+}
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+.flex-start {
+	align-self: flex-start;
+}
+.navbar-toggler {
+	color: white;
+	border: none;
+}
+.navbar-nav {
+	background-color: white;
 }
