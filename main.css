@@ -1,0 +1,13 @@
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	cursor: hand;
+}
+.white-text {
+	color: white;
+}
+.black-background{
+	background-color: black;
+}
