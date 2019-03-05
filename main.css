@@ -4,6 +4,7 @@ a {
 a:hover {
 	text-decoration: none;
 	cursor: hand;
+	color: inherit;
 }
 .white-text {
 	color: white;
@@ -13,4 +14,20 @@ a:hover {
 }
 .left-space{
 	margin-left: 5px;
+}
+.slide-one{
+	background-image: url(first-slide-mobile.jpg);
+	height: 100%;
+	display: block;
+	max-width: 100%;
+	width: 100%;
+}
+.slide-two {
+	background-image: url(second-slide-mobile.jpg);
+}
+.slide-three {
+	background-image: url(third-slide-mobile.jpg);
+}
+.slide-four {
+	background-image: url(fourth-slide-mobile.jpg);
 }
