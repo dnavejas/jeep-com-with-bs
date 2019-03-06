@@ -20,23 +20,27 @@ li {
 .black-text {
 	color: black;
 }
-.text-center {
-	text-align: center;
-}
 .black-background{
 	background-color: black;
 }
 .orange-box {
 	background-color: #ffba00;
 }
+.orange-color {
+	color: #ffba00;
+}
 .grey-box {
 	background-color: #636363;
 }
+.dark-grey-box {
+	background-color: #212121;
+}
 .light-grey-box{
 	background-color: #d1d1d1;
+	padding: 20px 0px;
 }
 .left-space{
-	margin-left: 5px;
+	margin-left: 10px;
 }
 .slide-one{
 	background-image: url(first-slide-mobile.jpg);
@@ -75,6 +79,9 @@ li {
 .navbar-nav {
 	background-color: white;
 }
+.card {
+	border: none;
+}
 .card-images {
 	text-align: center;
 	max-width: 50%;
@@ -101,5 +108,10 @@ li {
     margin-right: .07143rem;
 }
 .last-images {
+	max-width: 100%;
 	width: 100%;
+	object-position: 50% 50%;
+	object-fit: cover;
+	max-height: 18vh;	
+	margin-bottom: 0px;
 }
