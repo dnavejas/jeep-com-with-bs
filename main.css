@@ -10,7 +10,6 @@ a:hover {
 	color: inherit;
 }
 li {
-	margin-bottom: 5px;
 	border-radius: 3px;
 	padding: 10px;
 	font-size: .85714rem;
@@ -21,8 +20,17 @@ li {
 .black-text {
 	color: black;
 }
+.text-center {
+	text-align: center;
+}
 .black-background{
 	background-color: black;
+}
+.orange-box {
+	background-color: #ffba00;
+}
+.grey-box {
+	background-color: #636363;
 }
 .left-space{
 	margin-left: 5px;
@@ -42,13 +50,6 @@ li {
 }
 .slide-four {
 	background-image: url(fourth-slide-mobile.jpg);
-}
-.orange-box {
-	background-color: #ffba00;
-	padding: 1.35714rem 1.07143rem 1.28571rem 2.64286rem!important;
-}
-.grey-box {
-	background-color: #636363;
 }
 .font-12px {
 	font-size: 12px;
@@ -70,4 +71,24 @@ li {
 }
 .navbar-nav {
 	background-color: white;
+}
+.card {
+	text-align: center;
+}
+.card-img-top {
+	width: 45%;
+	max-width: 233px;
+}
+.card-text {
+	font-family: Roboto;
+    font-size: .57143rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: .14286rem;
+}
+.price {
+	font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: .07143rem;
 }
