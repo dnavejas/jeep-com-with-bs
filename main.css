@@ -32,6 +32,9 @@ li {
 .grey-box {
 	background-color: #636363;
 }
+.light-grey-box{
+	background-color: #d1d1d1;
+}
 .left-space{
 	margin-left: 5px;
 }
@@ -72,12 +75,17 @@ li {
 .navbar-nav {
 	background-color: white;
 }
-.card {
+.card-images {
 	text-align: center;
+	max-width: 50%;
+	min-width: 33%;
+	border: none;
 }
 .card-img-top {
-	width: 45%;
-	max-width: 233px;
+	min-width: 160px;
+}
+.card-title {
+	font-weight: 700;
 }
 .card-text {
 	font-family: Roboto;
@@ -91,4 +99,7 @@ li {
     font-size: 1rem;
     font-weight: 700;
     margin-right: .07143rem;
+}
+.last-images {
+	width: 100%;
 }
