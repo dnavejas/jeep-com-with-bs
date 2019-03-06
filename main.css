@@ -20,6 +20,9 @@ li {
 .black-text {
 	color: black;
 }
+.font-12px{
+	font-size:12px;
+}
 .black-background{
 	background-color: black;
 }
@@ -39,8 +42,14 @@ li {
 	background-color: #d1d1d1;
 	padding: 20px 0px;
 }
+.super-light-grey-box {
+	background-color: #e7e7e7;
+}
 .left-space{
 	margin-left: 10px;
+}
+.right-space{
+	margin-right: 3px;
 }
 .slide-one{
 	background-image: url(first-slide-mobile.jpg);
@@ -114,4 +123,7 @@ li {
 	object-fit: cover;
 	max-height: 18vh;	
 	margin-bottom: 0px;
+}
+.orange-hover {
+	
 }
