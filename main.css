@@ -57,21 +57,19 @@ li {
 .right-space{
 	margin-right: 3px;
 }
-.slide-one{
-	background-image: url(first-slide-mobile.jpg);
+.absolute {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 50%;
+	right: 50%;
+}
+.carousel-content {
+	position: absolute;
+	z-index: 11;
+	display: table;
+	width: 80%;
 	height: 100%;
-	display: block;
-	max-width: 100%;
-	width: 100%;
-}
-.slide-two {
-	background-image: url(second-slide-mobile.jpg);
-}
-.slide-three {
-	background-image: url(third-slide-mobile.jpg);
-}
-.slide-four {
-	background-image: url(fourth-slide-mobile.jpg);
 }
 .font-12px {
 	font-size: 12px;
