@@ -12,40 +12,54 @@
 		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg black-background">
-			<a class="white-text col-6 text" href="#">Jeep®</a>
-			<button class="navbar-toggler white-text" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">VEHICLES<i class="fas fa-angle-down left-space"></i>
-				</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<nav class="navbar navbar-expand-lg font-weight-bold d-flex black-background justify-content-lg-start">
+			<a class="white-text col-6 text" style="align-self:flex-start" href="#">Jeep®</a>
+			<!-- <button class="navbar-toggler white-text" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">VEHICLES<i class="fas fa-angle-down left-space"></i></button>
+			<div class="collapse justify-content-end" id="navbarSupportedContent">
 			    <ul class="navbar-nav mr-auto">
 			    	<li class="nav-item active">
 			        STANDARD VEHICLES</i><span class="sr-only">(current)</span></a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#"><img src="wrangler.jpg"/><i class="fas fa-angle-right left-space orange-color"></i></i></a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link disabled" href="#">SHOPPING TOOLS<i class="fas fa-angle-right left-space orange-color"></i></a>
-						</li>
-						<li class="nav-item">
-			        <a class="nav-link disabled" href="#">CAPABILITY<i class="fas fa-angle-right left-space orange-color"></i></a>
-						</li>
-						<li class="nav-item">
-			        <a class="nav-link disabled" href="#">JEEP LIFE<i class="fas fa-angle-right orange-color"></i></a>
-						</li>
-						<li class="nav-item">
-			        <a class="nav-link disabled" href="#">OWNERS<i class="fas fa-angle-right left-space orange-color"></i></a>
-						</li>
-						<li class="nav-item">
-			        <a class="nav-link disabled" href="#">MERCHANDISE<i class="fas fa-angle-right left-space orange-color"></i></a>
-			      </li>
-			    </ul>
+			    	</li>
+			    	<li class="nav-item">
+			        	<a class="nav-link" href="#"><img src="wrangler.jpg"/><i class="fas fa-angle-right left-space orange-color"></i></i></a>
+			    	</li>
+			    	<li class="nav-item">
+			        	<a class="nav-link disabled" href="#">SHOPPING TOOLS<i class="fas fa-angle-right left-space orange-color"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">CAPABILITY<i class="fas fa-angle-right left-space orange-color"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">JEEP LIFE<i class="fas fa-angle-right orange-color"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">OWNERS<i class="fas fa-angle-right left-space orange-color"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">MERCHANDISE<i class="fas fa-angle-right left-space orange-color"></i></a>
+					</li>
+				</ul>
+			</div> -->
+			<div class="collapse navbar-collapse align-items-center" id="navbarNav">
+				<a href="#" class="py-3 white-text"><div class="m-2 p-1">VEHICLES</div></a>
+				<a href="#" class="py-3 white-text"><div class="d-none m-2 p-1">SHOPPING TOOLS</div></a>
+				<a href="#" class="py-3 white-text"><div class="d-sm-none m-2 p-1">CAPABILITY</div></a>
+				<a href="#" class="py-3 white-text"><div class="m-2 p-1">JEEP<sub>®</sub> LIFE</div></a>
+				<a href="#" class="py-3 white-text"><div class="m-2 p-1">OWNERS</div></a>
+				<a href="#" class="py-3 white-text"><div class="m-2 p-1 external">MERCHANDISE</div></a>
 			</div>
-			<button class="navbar-toggler flex-display flex-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<div class="d-none d-xl-flex my-1 ml-auto">
+				<div class="border-left align-items-center m-4">|</div>
+				<a href="#" class="d-inline-flex align-items-center"><div class="mr-4 fz-12 font-weight-normal">Español</div></a>
+				<a href="#" class="d-inline-flex align-items-center"><div class="mr-4">FIND A<br>DEALER</div></a>
+				<a href="#" class="d-inline-flex align-items-center"><div class="mr-4">BUILD &<br>PRICE</div></a>
+			</div>
+					
+			<button class="navbar-toggler flex-display flex-center d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			  	<span class="white-text font-12px" style="padding-right: 5px;">MENU</span>
 			    <i class="fas fa-bars white-text"></i>
 		  	</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<div class="collapse navbar-collapse d-lg-none" id="navbarSupportedContent">
 		    	<ul class="navbar-nav mr-auto" style="padding: 10px;">
 		      		<a class=" black-text" href="#">
 				      	<li class="nav-item active orange-box">
@@ -57,12 +71,12 @@
 				        	FIND A DEALER<i class="fas fa-angle-right"></i>
 				    	</li>
 					</a>
-					<a class="black-text" href="#">
+					<a class="black-text d-sm-none" href="#">
 					    <li class="nav-item">
 					        SHOPPING TOOLS<i class="fas fa-angle-down"></i>
 					    </li>
 					</a>
-					<a class="nav-link black-text" href="#">
+					<a class="nav-link black-text d-md-none" href="#">
 						<li class="nav-item">
 		        			CAPABILITY<i class="fas fa-angle-down"></i>
 		      			</li>
