@@ -84,9 +84,6 @@ li {
 	width: 80%;
 	height: 100%;
 }
-.font-12px {
-	font-size: 12px;
-}
 .flex-display {
 	display: flex;
 	justify-content: flex-end;
@@ -155,4 +152,20 @@ footer{
 }
 .line-space{
 	padding: 10px;
+}
+.slide1 {
+	background-color: rgba(0, 0, 0, .5);
+	width: 50%;
+	height: 320px;
+	position: absolute;
+	top: 5%;
+	left: 25%;
+}
+.slide2 {
+	width: 50%;
+	position: absolute;
+	left: 5%;
+}
+.line-height1-5{
+	line-height: 1.5;
 }
